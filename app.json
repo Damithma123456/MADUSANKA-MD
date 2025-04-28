@@ -1,6 +1,6 @@
 {
-  "name": "MALAKA-MD-V2",
-  "description": "ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀʟᴀᴋᴀ-ᴍᴅ",
+  "name": "MADUSANKA-MD",
+  "description": "ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ MADUSANKA-MD",
   "logo": "https://i.ibb.co/PwTkwNQ/20241209-212640.jpg",
   "keywords": ["bot"],
   "success_url": "/",
@@ -22,7 +22,7 @@
     "OWNER_NUMBER": {
       "description": "Owner Number",
       "required": true,
-      "default": "94704243771"
+      "default": "9470"
       
     },  
     
