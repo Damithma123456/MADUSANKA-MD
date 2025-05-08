@@ -48,9 +48,10 @@ cmd({
             `👤 *Author:* ${author?.name || "Unknown"}\n` +
             `🖇 *Url:* ${url || "Unknown"}\n\n` +
             `🔽 *Reply with your choice:*\n` +
-            `1.1 *Audio Type* 🎵\n` +
-            `1.2 *Document Type* 📁\n\n` +
-            `${config.FOOTER || "> 🧟‍♀️ᴘᴏᴡᴇʀᴅ ʙʏ ᴍᴀᴅᴜꜱᴀɴᴋᴀ 〽️ᴅ
+            `*1* | _ᴅᴏᴡɴʟᴏᴀᴅ ᴀᴜᴅɪᴏ 🎧_` +
+            `*2* | _ᴅᴏᴡɴʟᴏᴀᴅ ᴅᴏᴄᴜᴍᴇɴᴛ  📁_` +
+            `*3* | _ᴅᴏᴡɴʟᴏᴀᴅ ᴠᴏɪᴄᴇ 🎤_` +
+            
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
