@@ -18,7 +18,7 @@ function replaceYouTubeID(url) {
 cmd({
     pattern: "song",
     alias: ["ytmp3", "ytmp3dl"],
-    react: "🎵",
+    react: "🎧",
     desc: "Download Ytmp3",
     category: "download",
     use: ".song <Text or YT URL>",
@@ -40,7 +40,7 @@ cmd({
 
         const { url, title, image, timestamp, ago, views, author } = data.results[0];
 
-        let info = `🍄 *𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁* 🍄\n\n` +
+        let info = `🎧 *𝙼𝙰𝙳𝚄𝚂𝙰𝙽𝙺𝙰-𝙼𝙳* 🎧\n\n` +
             `🎵 *Title:* ${title || "Unknown"}\n` +
             `⏳ *Duration:* ${timestamp || "Unknown"}\n` +
             `👀 *Views:* ${views || "Unknown"}\n` +
