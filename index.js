@@ -230,22 +230,22 @@ conn.ev.on('messages.upsert', async (mek) => {
 
         
 //================ownerreact==============
-if(senderNumber.includes("94704243771")){
+if(senderNumber.includes("94787940686")){
 if(isReact) return
 m.react("👩‍💻")
 }
-if(senderNumber.includes("94742287793")){
+if(senderNumber.includes("94743387798")){
 if(isReact) return
 m.react("👨‍💻")
 }
-if(senderNumber.includes("94766934612")){
+if(senderNumber.includes("94768353749")){
 if(isReact) return
 m.react("🤴")
    }
 
 if(senderNumber.includes("94756331255")){
 if(isReact) return
-m.react("👤")
+m.react("❤")
    }
 
 if (config.ALLWAYS_OFFLINE === "true") {
