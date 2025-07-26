@@ -48,10 +48,8 @@ cmd({
             `👤 *Author:* ${author?.name || "Unknown"}\n` +
             `🖇 *Url:* ${url || "Unknown"}\n\n` +
             `🔽 *Reply with your choice:*\n` +
-            `*1* | _ᴅᴏᴡɴʟᴏᴀᴅ ᴀᴜᴅɪᴏ 🎧_` +
-            `*2* | _ᴅᴏᴡɴʟᴏᴀᴅ ᴅᴏᴄᴜᴍᴇɴᴛ  📁_` +
-            `*3* | _ᴅᴏᴡɴʟᴏᴀᴅ ᴠᴏɪᴄᴇ 🎤_` +
-            
+             1.1 *Audio Type* 🎵
+             1.2 *Document Type* 📁
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
